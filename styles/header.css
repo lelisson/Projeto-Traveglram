@@ -1,5 +1,12 @@
 header {
   padding-block: 32px;
+  font: var(--text-md);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #profile {
@@ -14,4 +21,14 @@ header {
   font: var(--text-lg);
   color: var(--text-color-primary)
   margin-bottom: 8px;
+}
+
+
+#infor {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 280px;
 }
